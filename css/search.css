@@ -1,0 +1,100 @@
+body {
+  background-color: #0d0d0d;
+}
+/* navbar start */
+.nav {
+  top: 0;
+  bottom: 0;
+  width: 350px;
+  background-color: #0d0d0d;
+  position: fixed;
+  z-index: 111;
+}
+.nav-links ul li a {
+  color: #ffffff;
+  font-size: 18px;
+}
+.anchorList1{
+  transform: translateY(20px);
+  transition: 0.5s;  
+  overflow: hidden;
+}
+.anchorList2{
+  transform: translateY(20px);
+  transition: 0.5s;
+  transition-delay: 0.3s;
+
+  overflow: hidden;
+}
+.anchorList3{
+  transform: translateY(20px);
+  transition: 0.5s;
+  transition-delay: 0.4s;
+
+  overflow: hidden;
+}
+.anchorList4{
+  transform: translateY(20px);
+  transition: 0.5s;
+  transition-delay: 0.5s;
+
+  overflow: hidden;
+}
+.anchorList5{
+  transform: translateY(20px);
+  transition: 0.5s;
+  transition-delay: 0.6s;
+  overflow: hidden;
+}
+i{
+  cursor: pointer;
+}
+.nav i,
+p {
+  color: #ffffff;
+}
+.logo {
+  width: 50px;
+}
+.outer-nav {
+  background-color: #ffffff;
+}
+.outer-nav i {
+  color: #0d0d0d;
+}
+#close,#open{
+ font-size:35px ; 
+ cursor: pointer;
+}
+/* navbarend */
+.inputs::placeholder {
+  color: rgba(253, 253, 253, 0.604);
+}
+#mealname {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(240, 248, 255, 0.759);
+  transform: translateY(100%);
+  transition: 0.5s;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  align-items: center;
+  display: flex;
+}
+
+.card-container:hover #mealname {
+  transform: translateY(0%);
+}
+.recipe{
+  background-color: #CFF4FC;
+  color: #055160;
+}
+.tags{
+  background-color: #F8D7DA;
+  color: #A22029;
+}
